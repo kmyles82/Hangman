@@ -3,7 +3,7 @@
 //response - what was actually done ()
 
 const getPuzzle = async (wordCount) => {
-    const response = await fetch(`http://puzzle.mead.io/puzzle?wordCount=${wordCount}`)
+    const response = await fetch(`//puzzle.mead.io/puzzle?wordCount=${wordCount}`)
 
     if (response.status === 200) {
         return response.json()
